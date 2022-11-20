@@ -14,6 +14,41 @@ code {
     monospace;
 }
 
+section.welcome-section {
+  color: white;
+}
+
+ion-button {
+  --color: rgb(255, 255, 255);
+}
+
+ion-toolbar {
+  --background: rgb(0, 0, 0);
+}
+
+a.project.project-tile {
+  color: rgb(240, 240, 240);
+}
+/* Set variables for all modes */
+:root {
+  /* Set the background of the entire app */
+  --ion-background-color: hsl(0, 0%, 0%);
+
+  /* Set the font family of the entire app */
+  --ion-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Roboto", sans-serif;
+}
+
+/* Set text color of the entire app for iOS only */
+.ios {
+  --ion-text-color: rgb(255, 255, 255);
+}
+
+/* Set text color of the entire app for Material Design only */
+.md {
+  --ion-text-color: rgb(255, 255, 255);
+}
+
 .project-image {
   border: 1px solid #ddd;
   border-radius: 4px;
