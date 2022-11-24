@@ -13,12 +13,11 @@
     "web-vitals": "^2.1.4",
     "homepage": "https://johnfull30.github.io/IonicReactPortfolio/"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+"scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
