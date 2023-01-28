@@ -4,3 +4,19 @@
   background-attachment: fixed;
   background-position: center;
 }
+
+ion-content {
+  width: calc(100% + 15px);
+}
+ion-content::part(scroll) {
+  padding-right: 15px;
+}
+
+@font-face {
+  font-family: comicNeue;
+  src: url("../assests/fonts/comicNeue.wof2");
+}
+
+* {
+  font-family: comicNeue;
+}

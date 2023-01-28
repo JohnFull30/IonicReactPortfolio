@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 function Projects() {
   return (
-    <ion-content scrollEvents="true">
+    <ion-content>
       <div class="Projects">
         <a
           href="https://codepen.io/johnfull30/full/ExwLJww"
