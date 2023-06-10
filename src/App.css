@@ -48,7 +48,7 @@ nav li {
 
 .project-image {
   border: 1px solid #ddd;
-  border-radius:.contact-section {
+  border-radius: contact-section;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -100,6 +100,3 @@ nav li {
   height: 300px;
 }
 
-ion-icon {
-  font-size: 64px;
-}
